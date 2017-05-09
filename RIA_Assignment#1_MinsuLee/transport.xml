@@ -1,0 +1,461 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<DirectionsResponse>
+ <status>OK</status>
+ <route>
+  <summary></summary>
+  <leg>
+   <step>
+    <travel_mode>WALKING</travel_mode>
+    <start_location>
+     <lat>44.7234572</lat>
+     <lng>-63.6777770</lng>
+    </start_location>
+    <end_location>
+     <lat>44.7187630</lat>
+     <lng>-63.6742110</lng>
+    </end_location>
+    <polyline>
+     <points>s`~oGbatcKFBPPRV\p@f@OTCRAL@VDbATRHdAb@n@^B@F_@BM@S?OAKAAAC?AA?CO?A?ABI?A@Ab@a@`Af@@??AXqAAAICAAHa@BO?AiAs@AA?ADQ@M@?v@^XLt@mDxE{EXSHELGLCrBM^e@w@}@i@o@EJ</points>
+    </polyline>
+    <duration>
+     <value>704</value>
+     <text>12 mins</text>
+    </duration>
+    <html_instructions>Walk to Bedford Hwy in Front of Convoy Run</html_instructions>
+    <distance>
+     <value>968</value>
+     <text>1.0 km</text>
+    </distance>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.7234572</lat>
+      <lng>-63.6777770</lng>
+     </start_location>
+     <end_location>
+      <lat>44.7230770</lat>
+      <lng>-63.6782621</lng>
+     </end_location>
+     <polyline>
+      <points>s`~oGbatcKFBPPRV\p@</points>
+     </polyline>
+     <duration>
+      <value>40</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Head &lt;b&gt;southwest&lt;/b&gt; on &lt;b&gt;Wimbledon Rd&lt;/b&gt; toward &lt;b&gt;Basinview Dr&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>57</value>
+      <text>57 m</text>
+     </distance>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.7230770</lat>
+      <lng>-63.6782621</lng>
+     </start_location>
+     <end_location>
+      <lat>44.7214348</lat>
+      <lng>-63.6786992</lng>
+     </end_location>
+     <polyline>
+      <points>g~}oGbdtcKf@OTCRAL@VDbATRHdAb@n@^B@</points>
+     </polyline>
+     <duration>
+      <value>136</value>
+      <text>2 mins</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; onto &lt;b&gt;Basinview Dr&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>191</value>
+      <text>0.2 km</text>
+     </distance>
+     <maneuver>turn-left</maneuver>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.7214348</lat>
+      <lng>-63.6786992</lng>
+     </start_location>
+     <end_location>
+      <lat>44.7212120</lat>
+      <lng>-63.6778549</lng>
+     </end_location>
+     <polyline>
+      <points>}s}oGzftcKF_@BM@S?OAKAAAC?AA?CO?A?ABI?A@Ab@a@</points>
+     </polyline>
+     <duration>
+      <value>73</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; toward &lt;b&gt;Holland Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>82</value>
+      <text>82 m</text>
+     </distance>
+     <maneuver>turn-left</maneuver>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.7212120</lat>
+      <lng>-63.6778549</lng>
+     </start_location>
+     <end_location>
+      <lat>44.7207429</lat>
+      <lng>-63.6776304</lng>
+     </end_location>
+     <polyline>
+      <points>qr}oGpatcK`Af@@??AXqA</points>
+     </polyline>
+     <duration>
+      <value>63</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;right&lt;/b&gt; toward &lt;b&gt;Holland Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>77</value>
+      <text>77 m</text>
+     </distance>
+     <maneuver>turn-right</maneuver>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.7207429</lat>
+      <lng>-63.6776304</lng>
+     </start_location>
+     <end_location>
+      <lat>44.7207403</lat>
+      <lng>-63.6773294</lng>
+     </end_location>
+     <polyline>
+      <points>so}oGd`tcKAAICAAHa@BO?A</points>
+     </polyline>
+     <duration>
+      <value>25</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; toward &lt;b&gt;Holland Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>30</value>
+      <text>30 m</text>
+     </distance>
+     <maneuver>turn-left</maneuver>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.7207403</lat>
+      <lng>-63.6773294</lng>
+     </start_location>
+     <end_location>
+      <lat>44.7210933</lat>
+      <lng>-63.6769640</lng>
+     </end_location>
+     <polyline>
+      <points>so}oGh~scKiAs@AA?ADQ</points>
+     </polyline>
+     <duration>
+      <value>40</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; toward &lt;b&gt;Holland Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>55</value>
+      <text>55 m</text>
+     </distance>
+     <maneuver>turn-left</maneuver>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.7210933</lat>
+      <lng>-63.6769640</lng>
+     </start_location>
+     <end_location>
+      <lat>44.7206586</lat>
+      <lng>-63.6771250</lng>
+     </end_location>
+     <polyline>
+      <points>yq}oG~{scK@M@?v@^XL</points>
+     </polyline>
+     <duration>
+      <value>42</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;right&lt;/b&gt; toward &lt;b&gt;Holland Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>56</value>
+      <text>56 m</text>
+     </distance>
+     <maneuver>turn-right</maneuver>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.7206586</lat>
+      <lng>-63.6771250</lng>
+     </start_location>
+     <end_location>
+      <lat>44.7182415</lat>
+      <lng>-63.6747024</lng>
+     </end_location>
+     <polyline>
+      <points>co}oG~|scKt@mDxE{EXSHELGLCrBM^e@</points>
+     </polyline>
+     <duration>
+      <value>232</value>
+      <text>4 mins</text>
+     </duration>
+     <html_instructions>Continue onto &lt;b&gt;Holland Ave&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>351</value>
+      <text>0.4 km</text>
+     </distance>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.7182415</lat>
+      <lng>-63.6747024</lng>
+     </start_location>
+     <end_location>
+      <lat>44.7187630</lat>
+      <lng>-63.6742110</lng>
+     </end_location>
+     <polyline>
+      <points>_`}oGzmscKw@}@i@o@EJ</points>
+     </polyline>
+     <duration>
+      <value>53</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; onto &lt;b&gt;Bedford Hwy&lt;/b&gt;/&lt;b&gt;Nova Scotia Trunk 2 N&lt;/b&gt;&lt;div style=&quot;font-size:0.9em&quot;&gt;Destination will be on the left&lt;/div&gt;</html_instructions>
+     <distance>
+      <value>69</value>
+      <text>69 m</text>
+     </distance>
+     <maneuver>turn-left</maneuver>
+    </step>
+   </step>
+   <step>
+    <travel_mode>TRANSIT</travel_mode>
+    <start_location>
+     <lat>44.7187630</lat>
+     <lng>-63.6742110</lng>
+    </start_location>
+    <end_location>
+     <lat>44.6620400</lat>
+     <lng>-63.6285870</lng>
+    </end_location>
+    <polyline>
+     <points>gc}oGxjscKDIdBtBb@p@\n@Pf@nBjIJVf@nAZh@HJr@d@dAZNAvDE~Ca@h@UJEjAmAVe@Zk@^aArAuGt@sD^qAzHqPvGsNl@sA|CmGfCgFhBoClBeBbBeAbGsDbNqIjCcAfCc@vOEj@ErIq@xACHA~Fl@bBGvIaBxI_BpNmC`ASpBKrBLfB`@JBz@ZjH`FjAj@`@NtAPf@?b@C^Id@U^SXOl@e@z@eAxAqDl@_CfDgMh@_DHcBXoFRwDLgAReAXaA\_At@qAdAmAzBmCx@_AhBsAzB_BdKqH^a@l@u@d@s@pDsIxBkCbNkPzBmCfTmW`BwBhHkJjAwBfBwEF_@lGoWEC</points>
+    </polyline>
+    <duration>
+     <value>1140</value>
+     <text>19 mins</text>
+    </duration>
+    <html_instructions>Bus towards 80 Downtown Via Spring Garden</html_instructions>
+    <distance>
+     <value>8363</value>
+     <text>8.4 km</text>
+    </distance>
+    <transit_details>
+     <departure_stop>
+      <name>Bedford Hwy in Front of Convoy Run</name>
+      <location>
+       <lat>44.7187630</lat>
+       <lng>-63.6742110</lng>
+      </location>
+     </departure_stop>
+     <arrival_stop>
+      <name>Fairview Overpass After Main Ave (6644)</name>
+      <location>
+       <lat>44.6620400</lat>
+       <lng>-63.6285870</lng>
+      </location>
+     </arrival_stop>
+     <line>
+      <name>Sackville</name>
+      <short_name>80</short_name>
+      <vehicle>
+       <name>Bus</name>
+       <type>BUS</type>
+       <icon>//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png</icon>
+      </vehicle>
+      <agency>
+       <name>Halifax Transit</name>
+       <url>http://www.halifax.ca/transit</url>
+      </agency>
+      <color>#7986cb</color>
+      <text_color>#000000</text_color>
+     </line>
+     <num_stops>25</num_stops>
+     <headsign>80 Downtown Via Spring Garden</headsign>
+     <departure_time>
+      <value>1486084500</value>
+      <text>9:15pm</text>
+      <time_zone>America/Halifax</time_zone>
+     </departure_time>
+     <arrival_time>
+      <value>1486085640</value>
+      <text>9:34pm</text>
+      <time_zone>America/Halifax</time_zone>
+     </arrival_time>
+    </transit_details>
+   </step>
+   <step>
+    <travel_mode>WALKING</travel_mode>
+    <start_location>
+     <lat>44.6620400</lat>
+     <lng>-63.6285870</lng>
+    </start_location>
+    <end_location>
+     <lat>44.6596573</lat>
+     <lng>-63.6365402</lng>
+    </end_location>
+    <polyline>
+     <points>w`roGtmjcKOdA`@ZDBDDDDBFDFBHVr@pC|Hz@dCb@pAvDrJPp@GHGFIF[TyA`AKFMLHTHZLf@FP^hAt@zB</points>
+    </polyline>
+    <duration>
+     <value>649</value>
+     <text>11 mins</text>
+    </duration>
+    <html_instructions>Walk to 95 Evans Ave, Halifax, NS B3M, Canada</html_instructions>
+    <distance>
+     <value>773</value>
+     <text>0.8 km</text>
+    </distance>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.6620400</lat>
+      <lng>-63.6285870</lng>
+     </start_location>
+     <end_location>
+      <lat>44.6594470</lat>
+      <lng>-63.6343269</lng>
+     </end_location>
+     <polyline>
+      <points>w`roGtmjcKOdA`@ZDBDDDDBFDFBHVr@pC|Hz@dCb@pAvDrJPp@</points>
+     </polyline>
+     <duration>
+      <value>461</value>
+      <text>8 mins</text>
+     </duration>
+     <html_instructions>Head &lt;b&gt;southwest&lt;/b&gt; on &lt;b&gt;Main Ave&lt;/b&gt; toward &lt;b&gt;Mcfatridge Rd&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>523</value>
+      <text>0.5 km</text>
+     </distance>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.6594470</lat>
+      <lng>-63.6343269</lng>
+     </start_location>
+     <end_location>
+      <lat>44.6602996</lat>
+      <lng>-63.6350068</lng>
+     </end_location>
+     <polyline>
+      <points>qpqoGpqkcKGHGFIF[TyA`AKFML</points>
+     </polyline>
+     <duration>
+      <value>80</value>
+      <text>1 min</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;right&lt;/b&gt; onto &lt;b&gt;Titus St&lt;/b&gt;</html_instructions>
+     <distance>
+      <value>109</value>
+      <text>0.1 km</text>
+     </distance>
+     <maneuver>turn-right</maneuver>
+    </step>
+    <step>
+     <travel_mode>WALKING</travel_mode>
+     <start_location>
+      <lat>44.6602996</lat>
+      <lng>-63.6350068</lng>
+     </start_location>
+     <end_location>
+      <lat>44.6596573</lat>
+      <lng>-63.6365402</lng>
+     </end_location>
+     <polyline>
+      <points>{uqoGxukcKHTHZLf@FP^hAt@zB</points>
+     </polyline>
+     <duration>
+      <value>108</value>
+      <text>2 mins</text>
+     </duration>
+     <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; onto &lt;b&gt;Evans Ave&lt;/b&gt;&lt;div style=&quot;font-size:0.9em&quot;&gt;Destination will be on the right&lt;/div&gt;</html_instructions>
+     <distance>
+      <value>141</value>
+      <text>0.1 km</text>
+     </distance>
+     <maneuver>turn-left</maneuver>
+    </step>
+   </step>
+   <duration>
+    <value>2461</value>
+    <text>41 mins</text>
+   </duration>
+   <distance>
+    <value>10104</value>
+    <text>10.1 km</text>
+   </distance>
+   <start_location>
+    <lat>44.7234572</lat>
+    <lng>-63.6777770</lng>
+   </start_location>
+   <end_location>
+    <lat>44.6596573</lat>
+    <lng>-63.6365402</lng>
+   </end_location>
+   <start_address>123 Wimbledon Rd, Bedford, NS B4A 3X8, Canada</start_address>
+   <end_address>95 Evans Ave, Halifax, NS B3M, Canada</end_address>
+   <departure_time>
+    <value>1486083820</value>
+    <text>9:03pm</text>
+    <time_zone>America/Halifax</time_zone>
+   </departure_time>
+   <arrival_time>
+    <value>1486086281</value>
+    <text>9:44pm</text>
+    <time_zone>America/Halifax</time_zone>
+   </arrival_time>
+  </leg>
+  <copyrights>Map data ©2017 Google</copyrights>
+  <overview_polyline>
+   <points>s`~oGbatcKXTRV\p@f@OTC`@?zAZxAl@r@`@Jm@?o@EGCQBK@Cb@a@`Af@@?XsAKEJs@kAw@Ha@pAl@t@mDxE{Eb@YZKrBM^e@aBmBEJDIdBtBb@p@n@vAnBjIJVf@nAZh@|@p@dAZNAvDE~Ca@t@[jAmAVe@Zk@^aAhCiM^qAzHqPdIgQdHuNhBoClBeBfJyFbNqIjCcAfCc@vOE~Jw@bBE~Fl@bBGpTaErPaDpBKrBLrBd@z@ZjH`FjAj@`@NtAPf@?bAMdAi@XOl@e@z@eAxAqDtEgQh@_DHcBl@gL`@mCv@aCt@qAdAmAtDmEdFsDdKqH^a@l@u@d@s@pDsIxBkC~QyTfTmW`BwBhHkJjAwBfBwEF_@lGoWECOdA`@ZJHR^hGhQvDrJPp@OPkCfBMLHTVbA|AvE</points>
+  </overview_polyline>
+  <warning>Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths.</warning>
+  <bounds>
+   <southwest>
+    <lat>44.6594470</lat>
+    <lng>-63.6786992</lng>
+   </southwest>
+   <northeast>
+    <lat>44.7234572</lat>
+    <lng>-63.6285870</lng>
+   </northeast>
+  </bounds>
+ </route>
+ <geocoded_waypoint>
+  <geocoder_status>OK</geocoder_status>
+  <type>street_address</type>
+  <partial_match>true</partial_match>
+  <place_id>ChIJY9_92pKJWUsR5W5AgFCsZU4</place_id>
+ </geocoded_waypoint>
+ <geocoded_waypoint>
+  <geocoder_status>OK</geocoder_status>
+  <type>street_address</type>
+  <place_id>ChIJj4kXiKkhWksRNHBetI9PK6k</place_id>
+ </geocoded_waypoint>
+</DirectionsResponse>

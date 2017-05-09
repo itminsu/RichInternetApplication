@@ -1,0 +1,1 @@
+https://maps.googleapis.com/maps/api/directions/xml?origin=Halifax&destination=Halifax&mode=transit&key=AIzaSyAqkX_BfEJJDeujz4G1ngo_rAMdNm2NLhM

@@ -1,0 +1,190 @@
+{
+  "products": [
+    {
+      "name": "Samsung 65\" 4K Ultra HD",
+      "description": "With the Samsung KU6491 65\" 4K UHD Curved Smart TV.",
+      "category": "TV",
+      "price": "1,799",
+      "stock": "10",
+      "image": "samsungUHD.jpg",
+      "date": "2017-04-04T20:34:16.687Z",
+      "id": 1
+    },
+    {
+      "name": "LG 65\" 4K UHD HDR LED",
+      "description": "Stoke the flames of your imagination with the LG 65\" UH5500 4K UHD Smart TV.",
+      "category": "TV",
+      "price": "1,399",
+      "stock": "15",
+      "image": "lgUHD.jpg",
+      "date": "2017-04-04T20:39:29.184Z",
+      "id": 2
+    },
+    {
+      "name": "Toshiba 43\" 4K Ultra HD LED",
+      "description": "Ultra-high definition entertainment awaits you with this Toshiba 43\" TV.",
+      "category": "TV",
+      "price": "449",
+      "stock": "20",
+      "image": "toshibaUHD.jpg",
+      "date": "2017-04-04T20:42:31.160Z",
+      "id": 3
+    },
+    {
+      "name": "Sony 49\" 4K UHD LED HDR Android Smart TV ",
+      "description": "Open your eyes to a world of mesmerizing 4K content with the Sony XBR X700D series 49\" 4K Ultra HD Android Smart TV.",
+      "category": "TV",
+      "price": "899",
+      "stock": "10",
+      "image": "sonyUHD.jpg",
+      "date": "2017-04-04T20:45:21.688Z",
+      "id": 4
+    },
+    {
+      "name": "Samsung 55\" 4K UHD HDR QLED Tizen Smart TV ",
+      "description": "Turn yourself over to the future of home entertainment with this mesmerizing 55\" 4K Ultra HD smart TV from Samsung.",
+      "category": "TV",
+      "price": "3,799",
+      "stock": "10",
+      "image": "samsungQLED.jpg",
+      "date": "2017-04-04T20:44:45.320Z",
+      "id": 5
+    },
+    {
+      "name": "ASUS Eeebook 14\" Laptop",
+      "description": "Lightweight and compact, the 14\" Asus EeeBook E402 laptop is the perfect balance of portability and functionality.",
+      "category": "Laptop",
+      "price": "449",
+      "stock": "20",
+      "image": "asusLaptop.jpg",
+      "date": "2017-04-04T20:47:14.105Z",
+      "id": 6
+    },
+    {
+      "name": "Apple MacBook Air 13.3\" ",
+      "description": "The 13.3\" MacBook Air delivers high performance on the go without weighing you down. ",
+      "category": "Laptop",
+      "price": "1,199",
+      "stock": "20",
+      "image": "mac13.jpg",
+      "date": "2017-04-04T20:48:23.352Z",
+      "id": 7
+    },
+    {
+      "name": "Apple MacBook Pro 13.3\" Laptop",
+      "description": "The new MacBook Pro is faster and more powerful than before, yet remarkably thinner and lighter.",
+      "category": "Laptop",
+      "price": "1,899",
+      "stock": "10",
+      "image": "macPro13.jpg",
+      "date": "2017-04-04T20:49:26.370Z",
+      "id": 8
+    },
+    {
+      "name": "Apple MacBook Pro 15.4\" Laptop",
+      "description": "The new MacBook Pro is faster and more powerful than before, yet remarkably thinner and lighter.",
+      "category": "Laptop",
+      "price": "3,499",
+      "stock": "10",
+      "image": "macPro15.jpg",
+      "date": "2017-04-04T20:50:34.458Z",
+      "id": 9
+    },
+    {
+      "name": "Lenovo ThinkPad E560 20EV002FUS",
+      "description": "Lenovo ThinkPad E560 20EV002FUS 15.6\" Notebook - Intel Core i5 i5-6200U Dual-core (2 Core) 2.30 GHz",
+      "category": "Laptop",
+      "price": "589",
+      "stock": "10",
+      "image": "lenovoLaptop.jpeg",
+      "date": "2017-04-04T20:53:51.161Z",
+      "id": 10
+    },
+    {
+      "name": "Dell Inspiron 3000 15.6\" Laptop",
+      "description": "If you're looking for a laptop that will easily handle your everyday computing needs, look no further than this Dell Inspiron 3000 Series laptop.",
+      "category": "Laptop",
+      "price": "399",
+      "stock": "20",
+      "image": "dellLaptop.jpg",
+      "date": "2017-04-04T20:55:05.114Z",
+      "id": 11
+    },
+    {
+      "name": "Iphone SE",
+      "description": "iphone SE",
+      "category": "Phone",
+      "price": "579",
+      "stock": "15",
+      "image": "iphoneSE.jpg",
+      "date": "2017-04-04T21:05:24.114Z",
+      "id": 13
+    },
+    {
+      "name": "Galaxy S8",
+      "description": "Galaxy S8",
+      "category": "Phone",
+      "price": "890",
+      "stock": "10",
+      "image": "galaxys8.jpg",
+      "date": "2017-04-04T21:04:11.594Z",
+      "id": 14
+    },
+    {
+      "name": "Iphone 6S",
+      "description": "Iphone 6S",
+      "category": "Phone",
+      "price": "769",
+      "stock": "10",
+      "image": "iphone6s.jpg",
+      "date": "2017-04-04T21:06:00.478Z",
+      "id": 15
+    },
+    {
+      "name": "Samsung Galaxy S7 edge 32GB",
+      "description": "Galaxy S7",
+      "category": "Phone",
+      "price": "709",
+      "stock": "5",
+      "image": "galaxys7.jpg",
+      "date": "2017-04-04T21:06:56.186Z",
+      "id": 16
+    },
+    {
+      "name": "Mobile LG G5 32GB Smartphone",
+      "description": "LG g5",
+      "category": "Phone",
+      "price": "620",
+      "stock": "5",
+      "image": "lgg5.jpg",
+      "date": "2017-04-04T21:09:28.539Z",
+      "id": 17
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "body": "Body",
+      "date": "2017-03-08T20:37:12.634Z"
+    },
+    {
+      "title": "Second Post",
+      "body": "Body2",
+      "date": "2017-03-22T11:54:26.946Z",
+      "id": 2
+    },
+    {
+      "title": "Third Post",
+      "body": "Body3",
+      "date": "2017-03-22T11:54:29.687Z",
+      "id": 3
+    },
+    {
+      "title": "Fourth Post",
+      "body": "Body5",
+      "date": "2017-03-22T12:03:12.784Z",
+      "id": 4
+    }
+  ]
+}

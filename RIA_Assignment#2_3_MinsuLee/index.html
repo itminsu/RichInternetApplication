@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://js.live.net/v5.0/wl.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.12/js/adal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="jquery-3.1.1.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/constants.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <title>Two Note</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href='#'>Two Note</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right" id="NavRight" >
+                    <!-- Buttons will show up when log in -->
+                </ul>
+                <div class="navbar-form navbar-left">
+                    <div class="signin" id="signin"></div>
+                </div>
+                <div class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" id="searchinput" class="form-control hiden" placeholder="Search for Notes...">
+                    </div>
+                        <button onclick="search(document.getElementById('searchinput').value)" 
+                        id="" class="btn btn-default hiden">Search</button>
+                        <button onclick="ResetSearch()" class="btn btn-default hiden">Reset</button>
+                </div>
+            </div>
+        </nav>
+        
+        <div>
+            <div class="col-sm-3" id="List">
+                <nav class="list">
+                    <ul id="Notes" class="hiden" >
+                        <!-- Note lists-->
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <div class = "Title">
+                    <input class="hiden" id="NoteTitle" value="Note Title">
+                </div>
+                <textarea class="hiden" id="Body" rows="40"></textarea>
+            </div>
+        </div>
+        <div id="dialog" title="About">
+            <p class="dialogtext"></p>
+        </div>
+    </body>
+</html>

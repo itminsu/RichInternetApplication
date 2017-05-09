@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product Management</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css" >
+
+        <!--Unit test-->
+        <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.3.0.css">
+        <script type="text/javascript" src="https://code.jquery.com/qunit/qunit-2.3.0.js"></script>
+        <script src="js/tests.js"></script>
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+<!--         <script>
+            QUnit.test( "hello test", function( assert ) {
+              assert.ok( 1 == "1", "Passed!" );
+            });
+            //QUnit.test( "CreateJSONDataTest", function( assert ) {
+                //Generate Sample data to Test
+                var date = new Date();
+                var postJson = new Object(); // this object need for new data but, post manage exist data.
+                    postJson.name = "Test Name";
+                    postJson.description = "Test Description";
+                    postJson.category = "Test Category";
+                    postJson.price = "0";
+                    postJson.stock = "0"; 
+                    postJson.image = "Test.jpg";
+                    postJson.date = date;
+                    result = JSON.stringify(postJson);
+
+                    //Create Data
+                    $.when($.ajax({
+                        url: "http://localhost:3000/products/", 
+                        type: "POST",
+                        contentType: "application/json",
+                        data: result,
+                        dataType:"JSON",
+                    }))
+                    .done(function() {
+                    })
+                    .fail(function(e) {
+                    })    
+            //});
+
+            //CreateAndReadItem Test
+            QUnit.test( "CheckingCreateAndReadItemTest", function( assert ) {
+                  var name;
+                  $.ajax({
+                      type:"GET",
+                      url: "http://localhost:3000/products",
+                      dataType:"JSON",
+                      //cache : false, 
+                      success: function(data) {
+
+                          var i = data.length - 1;
+                          name = data[i].name; 
+
+                          assert.ok( postJson.name == name, "Created and Read!" );
+                      },
+                      error: function(error) {
+                          
+                      }
+                  }); // ajax
+                  alert("CheckingCreateAndReadItemTested");
+            });
+
+        </script>  -->
+    </head>
+    <body>
+        <img src="img/spinner/spinner.gif" id="spinner" class="hidden">
+        <div class="container">
+              <div class="page-header">
+                  <h1>Product Management Page</h1>
+              </div>
+              <div class="row">
+                  <div class="col-md-3">
+                      <form>
+                          <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" class="form-control" id="name" placeholder="Product Name">
+                          </div>
+                          <div class="form-group">
+                              <label for="category">Category</label>
+                              <select class="form-control" id="category">
+                                  <option value="Phone">Phone</option>
+                                  <option value="TV">TV</option>
+                                  <option value="Laptop">Laptop</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="price">Price</label>
+                              <input type="text" class="form-control" id="price" placeholder="Product Price">
+                          </div>
+                          <div class="form-group">
+                              <label for="stock">Stock</label>
+                              <input type="text" class="form-control" id="stock" placeholder="Product Stock">
+                          </div>
+                          <div class="form-group">
+                              <label for="description">Description</label>
+                              <textarea class="form-control" rows="8" id="description" placeholder="Product Description"></textarea>
+                          </div>
+                          <div class="filebox bs3-primary preview-image">
+                              <input class="upload-name" value="Select file" disabled="disabled" style="width: 200px;">
+                              <label for="input_file">Image</label> 
+                              <input type="file" id="input_file" class="upload-hidden" accept="image/x-png,image/gif,image/jpeg"> 
+                          </div>
+                          <button onclick="createUpdateItem();" type="submit" class="btn btn-primary pull-right submitBtn">Submit</button>
+                      </form>
+                  </div>
+                  <div class="col-md-9">
+                      <a href="/index.html" class="btn btn-default pull-right">Go to Frontent</a>
+                      <div>
+                          <select id="sortBy" class="sort">
+                                <option value="name">Name</option>
+                                <option value="category">Category</option>
+                                <option value="price">Price</option>
+                                <option value="stock">Stock</option>
+                                <option value="description">Description</option>
+                                <option value="date">Date</option>
+                           </select>
+                      </div>
+                      <div>
+                          <select id="orderBy" class="sort">
+                              <option value="ASC" selected>Ascending</option>
+                              <option value="DESC">Descending</option>
+                          </select>
+                      </div>
+                      <div class="table-responsive">
+                          <table class="table table-hover">
+                              <thead>
+                                  <colgroup>
+                                        <col class="col-md-2">
+                                        <col class="col-md-1">
+                                        <col class="col-md-2">
+                                        <col class="col-md-1">
+                                        <col class="col-md-2">
+                                        <col class="col-md-2">
+                                        <col class="col-md-2">
+                                  </colgroup>
+                                  <tr>
+                                      <th>Name</th>
+                                      <th>Category</th>
+                                      <th>Price</th>
+                                      <th>Stock</th>
+                                      <th>Description</th>
+                                      <th>Date</th>
+                                      <th>Action</th>
+                                  </tr>
+                              </thead>
+                              <tbody id="table">
+                                  <!-- Data goes here. -->
+                              </tbody>
+                          </table>
+                      </div> 
+                  </div>
+              </div>
+        </div>
+        <div class="hidden">
+            <div id="delete-dialog" title="Delete Item?">
+                <p>Delete this item?</p>
+            </div>
+            <div id="alert-dialog" title="Validation">
+                <p>Please Check your input.</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/backscripts.js"></script>
+
+        <!-- Unit Test -->
+<!--         <div id="qunit"></div>
+        <div id="qunit-fixture"></div> -->
+    </body>
+</html>
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blog Post</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script> 
+    </head>
+    <body>
+        <img src="img/spinner.gif" id="spinner" class="hidden">
+        <div class="container">
+              <div class="page-header">
+                  <h1>Blog Post</h1>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                      <form>
+                          <div class="form-group">
+                              <label for="title">Title</label>
+                              <input type="text" class="form-control" id="title" placeholder="Blog Title">
+                          </div>
+                          <div class="form-group">
+                              <label for="body">Body</label>
+                              <textarea class="form-control" rows="15" id="body" placeholder="Post Body"></textarea>
+                          </div>
+                          <button onclick="createUpdatePost();" type="submit" class="btn btn-primary pull-right submitBtn">Submit</button>
+                      </form>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="table-responsive">
+                          <table class="table table-hover">
+                              <thead>
+                                  <colgroup>
+                                        <col class="col-md-3">
+                                        <col class="col-md-3">
+                                        <col class="col-md-3">
+                                        <col class="col-md-3">
+                                  </colgroup>
+                                  <tr>
+                                      <th>
+                                          Title
+                                          <button id="titleASC" type="button" class="btn btn-default btn-xs">
+                                              <small><span class="glyphicon glyphicon-sort-by-alphabet"></span></small>
+                                              <!--<Input Type="hidden" id = "sortByTitleASC" name="sort" value="title">
+                                              <Input Type="hidden" id = "orderByTitleASC" name="order" value="ASC">-->
+                                          </button>
+                                          <button id="titleDESC" type="button" class="btn btn-default btn-xs">
+                                              <small><span class="glyphicon glyphicon-sort-by-alphabet-alt"></span></small>
+                                              <!--<Input Type="hidden" id = "sortByTitleDESC" name="sort" value="title">
+                                              <Input Type="hidden" id = "orderByTitleDESC" name="order" value="DESC">-->
+                                          </button>
+                                      </th>
+                                      <th>
+                                          Body
+                                          <button id="bodyASC" type="button" class="btn btn-default btn-xs">
+                                              <small><span class="glyphicon glyphicon-sort-by-alphabet"></span></small>
+                                              <!--<Input Type="hidden" id = "sortByBodyASC" name="sort" value="body">
+                                              <Input Type="hidden" id = "orderByBodyASC" name="order" value="ASC">-->
+                                          </button>
+                                          <button id="bodyDESC" type="button" class="btn btn-default btn-xs">
+                                              <small><span class="glyphicon glyphicon-sort-by-alphabet-alt"></span></small>
+                                              <!--<Input Type="hidden" id = "sortByBodyDESC" name="sort" value="body">
+                                              <Input Type="hidden" id = "orderByBodyDESC" name="order" value="DESC">-->
+                                          </button>
+                                      </th>
+                                      <th>
+                                          Date
+                                          <button id="dateASC" type="button" class="btn btn-default btn-xs">
+                                              <small><span class="glyphicon glyphicon-sort-by-attributes"></span></small>\
+                                              <!--<Input Type="hidden" id = "sortByDateASC" name="sort" value="date">
+                                              <Input Type="hidden" id = "orderByDateASC" name="order" value="ASC">-->
+                                          </button>
+                                          <button id="dateDESC" type="button" class="btn btn-default btn-xs">
+                                              <small><span class="glyphicon glyphicon-sort-by-attributes-alt"></span></small>
+                                              <!--<Input Type="hidden" id = "sortByDateDESC" name="sort" value="date">
+                                              <Input Type="hidden" id = "orderByDateDESC" name="order" value="DESC">-->
+                                          </button>
+                                      </th>
+                                      <th>Action</th>
+                                  </tr>
+                              </thead>
+                              <tbody id="table">
+                                  <!-- Data goes here. -->
+                              </tbody>
+                          </table>
+                      </div> 
+                  </div>
+              </div>
+        </div>
+        <div class="hidden">
+            <div id="delete-dialog" title="Delete Post?">
+                <p>Delete this post?</p>
+            </div>
+            <div id="alert-dialog" title="Validation">
+                <p>Please check your input.</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </body>
+</html>
